@@ -17,7 +17,7 @@ app.add_middleware(
 )
 
 # Configure Gemini API (replace with your actual API key)
-genai.configure(api_key="AIzaSyDzWOz6IXCsEJcoDfxOSKK1ARl_QradZTc")
+genai.configure(api_key="")
 
 class MatchResult(BaseModel):
     score: float
